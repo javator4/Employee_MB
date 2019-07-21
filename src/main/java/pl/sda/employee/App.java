@@ -17,6 +17,7 @@ public class App
     public static void main( String[] args )
     {
 
+        System.out.println("TEST");
         System.out.println(EmployeeDatabase.employeeList);
         EmployeeDatabase.employeeList.add(new Employee("sad","as",'K',2));
         System.out.println(EmployeeDatabase.employeeList);
